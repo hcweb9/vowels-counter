@@ -1,0 +1,51 @@
+* {
+  margin: 0px auto;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+form {
+  margin: 0px auto;
+  width: 50%;
+  height: 50%;
+  margin-top: 20px;
+}
+
+form h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+form #text {
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  background: white;
+  border: 1px thick black;
+  font-size: medium;
+}
+
+input::placeholder {
+  padding: 20px;
+}
+
+#counter,
+#restart {
+  background: rgb(221, 212, 212);
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  font-weight: bold;
+}
+
+#restart {
+  display: inline-block;
+}
+
+#result {
+  margin-left: 10px;
+}
